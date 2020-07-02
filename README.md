@@ -10,6 +10,8 @@ Convert Json Text To QTreeWidget Viewer
 
 ## Example
 
+Get Random Json Text from site
+
 https://www.json-generator.com/
 
-
+Copy Text and Paste it to Parser
