@@ -6,6 +6,7 @@ QJsonParser::QJsonParser(QWidget *parent) : QWidget(parent){
     layout->addWidget(treeWidget);
     this->setLayout(layout);
     this->resize(1920,1200);
+    QJsonObject obj;
     connect(textEdit,&QTextEdit::textChanged,[=](){
         QString text = textEdit->toPlainText();
         QJsonObject tempObj = QJsonDocument::fromJson(text.toUtf8()).object();

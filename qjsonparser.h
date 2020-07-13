@@ -22,4 +22,5 @@ private:
     QJsonTreeWidget* treeWidget = new QJsonTreeWidget;
 
 };
+
 #endif // QJSONPARSER_H

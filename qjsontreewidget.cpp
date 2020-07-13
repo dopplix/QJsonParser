@@ -1,11 +1,11 @@
 #include "qjsontreewidget.h"
 #include <QDebug>
+
 QJsonTreeWidget::QJsonTreeWidget() : QTreeWidget(){
     setHeaderLabels({"Key","Value","Type"});
     this->setColumnCount(3);
     this->addTopLevelItem(rootItem);
 }
-
 void QJsonTreeWidget::appendJson(QTreeWidgetItem* item, QJsonObject& obj){
     QStringList keys = obj.keys();
     for(QString key : keys){
