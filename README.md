@@ -1,0 +1,17 @@
+# QJsonParser
+
+Json Parser Using QTreeWidget and Qt Json
+
+Convert Json Text To QTreeWidget Viewer
+
+## Capture
+
+![qjsonparser](https://user-images.githubusercontent.com/31100072/86331974-c8df3e00-bc84-11ea-87e2-77b862036da2.JPG)
+
+## Example
+
+Get Random Json Text from site
+
+https://www.json-generator.com/
+
+Copy Text and Paste it to Parser
